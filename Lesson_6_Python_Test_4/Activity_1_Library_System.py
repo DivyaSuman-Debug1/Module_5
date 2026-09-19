@@ -17,6 +17,7 @@ class Book:
     def return_book(self):
         self.is_borrowed = False
         print(self.title, "has been returned.")
+
 book1 = Book("Harry Potter", "J.K Rowling")
 book2 = Book("The Hobbit", "J.R.R Tolkien")
 book3 = Book("1948", "George Orwell")
