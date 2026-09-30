@@ -1,9 +1,3 @@
-#Book class      →  __init__ sets title, author, and is_borrowed = False
-#borrow()        →  sets is_borrowed to True and prints a confirmation
-#return_book()   →  sets is_borrowed to False and prints a confirmation
-#3 Book objects  →  demonstrate both borrow() and return_book()
-#self            →  used to access and update attributes inside methods
-
 class Book:
     def __init__(self, title, author):
         self.title = title
